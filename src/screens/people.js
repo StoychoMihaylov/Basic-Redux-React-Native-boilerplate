@@ -2,7 +2,7 @@ import React from 'react'
 import { TouchableHighlight, View, Text, StyleSheet } from 'react-native'
 
 import { connect } from 'react-redux'
-import { fetchPeopleFromAPI } from './actions'
+import { fetchPeopleFromAPI } from '../actions/peopleAction'
 
 let styles
 
